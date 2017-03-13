@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<project name="Sample" default="build" basedir=".">
+<project name="Sample" default="war" basedir=".">
   <!-- Arguments to gwtc and devmode targets -->
   <property name="gwt.args" value="" />
 
   <!-- Configure path to GWT SDK -->
-  <property name="gwt.sdk" location="G:/Java/eclipse/plugins/com.gwtplugins.gwt.eclipse.sdkbundle.gwt27_2.7.0.201611042254/gwt-2.7.0" />
+  <property name="gwt.sdk" location="F:/GWT/gwt-2.7.0" />
 
   <path id="project.class.path">
     <pathelement location="war/WEB-INF/classes"/>
